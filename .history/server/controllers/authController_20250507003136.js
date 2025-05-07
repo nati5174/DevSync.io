@@ -1,0 +1,1 @@
+exports.protectedEndpoint = async (req, res)

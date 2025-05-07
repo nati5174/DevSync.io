@@ -1,0 +1,6 @@
+.register {
+    display: flex;
+    align-items: center;
+    background-color: #151426;
+    border: 3px 3e4150 solid;
+}

@@ -1,0 +1,7 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #151426;
+    border: 3px 3e4150 solid;
+}

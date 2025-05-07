@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;  /* Ensure body and html take full height */
+    margin: 0;  /* Remove default margin */
+  }
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #151426;
+    border: 3px 3e4150 solid;
+    width: 400px;
+    padding: 40px;
+}
