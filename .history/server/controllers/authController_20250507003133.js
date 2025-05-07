@@ -1,1 +1,0 @@
-exports.protectedEndpoint = async (req)

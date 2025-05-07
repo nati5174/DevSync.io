@@ -1,1 +1,0 @@
-const admin = require('0'../firebase/firebase.js')
