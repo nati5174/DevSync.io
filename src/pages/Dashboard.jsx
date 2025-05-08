@@ -1,12 +1,15 @@
+import Header_Dash from '../components/Header_Dash.jsx'
+import SideBar from '../components/SideBar.jsx'
+import Projects from '../components/Projects.jsx'
+
 
 const Dashboard =  () => {
   return (
-
-    <div>
-        Dashboard
-    </div>
-
-    
+    <main>
+        <Header_Dash/>
+        <SideBar/>
+        <Projects/>
+    </main>
   );
 }
 
