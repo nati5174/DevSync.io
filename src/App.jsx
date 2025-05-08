@@ -3,6 +3,7 @@ import Home from './pages/Home.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Dashboard from './pages/Dashboard.jsx'
+import ProtectedRoutes from './pages/ProtectedRoutes.jsx'
 
 
 
@@ -16,17 +17,24 @@ function App() {
           <Route path="/" element = {<Home/>} />
           <Route path="/register" element = {<Register/>} />
           <Route path="/login" element = {<Login/>} />
-          <Route path="/dashboard" element = {<Dashboard/>} />
+
+          <Route path="/dashboard" element = {
+            <ProtectedRoutes>
+              <Dashboard/>
+            </ProtectedRoutes>
+            } />
 
 
 
       </Routes>
     </BrowserRouter>
 
-
     
   );
 }
 
 export default App;
+
+
+
 
