@@ -1,0 +1,43 @@
+aside{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    width: 200px;
+    height: 100vh;
+    padding: 1px;
+    align-items: center;
+    background-color: #060b23;
+    gap:90px;
+
+
+}
+
+.title_side{
+    margin-top: 12px;
+    width: 100%;
+    border-bottom: 1px solid rgb(65, 50, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-name{
+
+    margin-left: 8px;
+}
+
+
+
+p , h1,h4 {
+    font-family: 'Poppins', sans-serif;
+
+}
